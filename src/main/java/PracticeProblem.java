@@ -29,6 +29,6 @@ public class PracticeProblem {
         return new String[0]; // 
     }
 
-    return str.split("\\s+");
+    return str.split(" +");
 }
 }
